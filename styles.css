@@ -38,12 +38,12 @@ i {
 
 @media (max-width: 600px) {
   .name {
-    font-size: 4vw;
+    font-size: 6vw;
   }
   .label {
-    font-size: 2.5vw;
+    font-size: 4vw;
   }
   i {
-    font-size: 4vw;
+    font-size: 6vw;
   }
 }
