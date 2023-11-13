@@ -13,7 +13,7 @@ body {
 }
 
 .name {
-  font-size: 2vw;
+  font-size: 3vh;
   font-weight: normal;
 }
 
@@ -22,7 +22,7 @@ body {
 }
 
 .label {
-  font-size: 1.2vw;
+  font-size: 1.8vh;
   margin: 20px 0;
 }
 
@@ -32,18 +32,26 @@ a {
 }
 
 i {
-  font-size: 1.5vw;
+  font-size: 2.25vh;
   color: #212121;
+  transition: color 0.2s;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+i:hover {
+  background-image: linear-gradient(0deg, rgb(218, 115, 78) 0%, rgb(214, 181, 73) 100%);
+  -webkit-text-fill-color: transparent;
 }
 
 @media (max-width: 600px) {
   .name {
-    font-size: 6vw;
+    font-size: 4.8vw;
   }
   .label {
-    font-size: 4vw;
+    font-size: 2.8vw;
   }
   i {
-    font-size: 6vw;
+    font-size: 3.6vw;
   }
 }
