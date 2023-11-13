@@ -46,12 +46,12 @@ i:hover {
 
 @media (max-width: 600px) {
   .name {
-    font-size: 4.8vw;
+    font-size: 6vw;
   }
   .label {
-    font-size: 2.8vw;
+    font-size: 3.6vw;
   }
   i {
-    font-size: 3.6vw;
+    font-size: 4.5vw;
   }
 }
